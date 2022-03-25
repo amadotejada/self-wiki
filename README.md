@@ -1,9 +1,9 @@
 # self-wiki
-Self-wiki is a browser extension used to provide internal company information to employees right from the browser. It also assists with self onboarding and creating IT support tickets.
-
 Written by [Amado Tejada](https://www.linkedin.com/in/amadotejada)
 
 Designed by [Sarah Choi](https://www.linkedin.com/in/sarahleechoi)
+
+Self Wiki is a browser extension used to provide internal company information to employees right from the browser. It also assists with self onboarding and creating IT support tickets.
 
 This is in beta. I'm not a frond-end developer - expect bugs.
 
