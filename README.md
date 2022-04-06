@@ -14,6 +14,9 @@ Self Wiki is in beta and should be tested extensively.
 - Brave
 - Edge
 
+## Note
+Add your own ticket system widget as needed
+
 ## User Interface
 
 <!-- <details>
