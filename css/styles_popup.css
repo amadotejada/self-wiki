@@ -1,0 +1,411 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 300px;
+    height: 510px;
+    /* max-height: 550px; */
+    background: url(../backgrounds/background2.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.column {
+    float: center;
+    display: inline-table;
+    width: 95px;
+    /* padding: 1px; */
+    height: 60px;
+    /*overflow: hidden;*/
+    font-size: 10px;
+}
+
+.row {
+    display: table;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    border: none;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+}
+
+
+.bluehoverClass:hover>a {
+    /* box-shadow: 0px 0px 1px 1px #10BBB3; */
+    background: #10BBB3;
+    border-radius: 10%;
+    /*padding: 1px;*/
+
+}
+
+.bluehoverClass:hover>a img:hover {
+    content: url("../icons/np_analytic_1401237_10BBB3.png");
+    height: 50px;
+    width: 50px
+}
+
+
+.pinkhoverClass:hover>a {
+    /* box-shadow: 0px 0px 1px 1px #df2d5e; */
+    background: #df2d5e;
+    border-radius: 10%;
+}
+
+.pinkhoverClass:hover>a img:hover {
+    content: url("../icons/np_analytics_1106345_DF2D5E.png");
+    height: 50px;
+    width: 50px
+}
+
+
+.orangehoverClass:hover>a {
+    /* box-shadow: 0px 0px 1px 1px #d95026; */
+    background: #d95026;
+    border-radius: 10%;
+}
+
+.orangehoverClass:hover>a img:hover {
+    content: url("../icons/np_gears_86311_D95026.png");
+    height: 50px;
+    width: 50px
+}
+
+
+.yellowhoverClass:hover>a {
+    /* box-shadow: 0px 0px 1px 1px #bc8e11; */
+    background: #bc8e11;
+    border-radius: 10%;
+
+}
+
+.yellowhoverClass:hover>a img:hover {
+    content: url("../icons/np_staff_2292693_BC8E11.png");
+    height: 50px;
+    width: 50px
+}
+
+.greenhoverClass:hover>a {
+    /* box-shadow: 0px 0px 1px 1px #7c9a17; */
+    background: #7c9a17;
+    border-radius: 10%;
+
+}
+
+.greenhoverClass:hover>a img:hover {
+    content: url("../icons/np_network_1401219_7C9A17.png");
+    height: 50px;
+    width: 50px
+}
+
+/*.bluehoverClass2:hover > a{
+    box-shadow: 0px 0px 1px 1px #10BBB3;
+    background: #10BBB3;
+    border-radius: 10%;
+
+}*/
+
+.bluehoverClass2:hover>a img:hover {
+    content: url("../icons/np_information_222828_10BBB3.png");
+    height: 50px;
+    width: 50px
+}
+
+/*.pinkhoverClass2:hover > a{
+    box-shadow: 0px 0px 1px 1px #df2d5e;
+    background: #df2d5e;
+    border-radius: 10%;
+}*/
+
+.pinkhoverClass2:hover>a img:hover {
+    content: url("../icons/np_marketing_2012546_DF2D5E.png");
+    height: 50px;
+    width: 50px
+}
+
+
+/*.orangehoverClass2:hover > a{
+    box-shadow: 0px 0px 1px 1px #d95026;
+    background: #d95026;
+    border-radius: 10%;
+}*/
+
+.orangehoverClass2:hover>a img:hover {
+    content: url("../icons/np_location-pinpoint_908442_D95026.png");
+    height: 50px;
+    width: 50px
+}
+
+
+/*.yellowhoverClass2:hover > a{
+    box-shadow: 0px 0px 1px 1px #bc8e11;
+    background: #bc8e11;
+    border-radius: 10%;
+
+}*/
+
+.yellowhoverClass2:hover>a img:hover {
+    content: url("../icons/np_html_565391_BC8E11.png");
+    height: 50px;
+    width: 50px
+}
+
+/*.greenhoverClass2:hover > a{
+    box-shadow: 0px 0px 1px 1px #7c9a17;
+    background: #7c9a17;
+    border-radius: 10%;
+
+}*/
+
+.greenhoverClass2:hover>a img:hover {
+    content: url("../icons/np_shake-hand_2228921_7C9A17.png");
+    height: 50px;
+    width: 50px
+}
+
+.pinkhoverClass3:hover>a img:hover {
+    content: url("../icons/np_security_746405_DF2D5E.png");
+    height: 50px;
+    width: 50px
+}
+
+.bluehoverClass3:hover>a img:hover {
+    content: url("../icons/np_design_1969658_10BBB3.png");
+    height: 50px;
+    width: 50px
+}
+
+.greenhoverClass4:hover>a img:hover {
+    content: url("../icons/noun_toolkit_2311174_green.png");
+    height: 50px;
+    width: 50px
+}
+
+.pinkhoverClass4:hover>a img:hover {
+    content: url("../icons/noun_strategy_1112737_pink.png");
+    height: 50px;
+    width: 50px
+}
+
+.bluehoverClass4:hover>a img:hover {
+    content: url("../icons/noun_finance_2397075_blue.png");
+    height: 50px;
+    width: 50px
+}
+
+#main_icons a:hover {
+    box-shadow: 0px 0px 1px 1px #bc8e11;
+    display: inline;
+    background: #bc8e11;
+    border-radius: 10%;
+}
+
+#top_icons img:hover {
+    /* box-shadow: 0px 0px 1px 1px #bc8e11;
+ background: #bc8e11;
+ border-radius: 20%;*/
+    content: url("../icons/np_information_2511504_DF2D5E.png");
+    height: 20px;
+    width: 20px;
+
+}
+
+#logo_style img:hover {
+    border-bottom: 1px solid #df2d5e
+}
+
+.GeneratedMarquee {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    ;
+    /*font-size:2em;*/
+    /*line-height:1.3em;*/
+    text-align: center;
+    /*padding:1.5em;*/
+
+}
+
+/*#Library {
+    height: 50px;
+    width: 50px;
+}*/
+
+
+
+/*#inside_items a:hover {
+ box-shadow: 0px 0px 1px 1px #0D3BA3;
+ background: #0D3BA3;
+ border-width: 300px;
+ display: inline-block;
+ text-align: center;
+ margin-left: -40px;
+}*/
+
+
+body {
+    opacity: 1;
+    animation-name: fadeInOpacity;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 0.8s;
+}
+
+@keyframes fadeInOpacity {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/*.column img:hover {
+    height: 70px;
+    width: 70px;
+}*/
+
+/* .animationImage {
+            display: block;
+  }*/
+
+.column,
+.animationImage {
+    transition: transform 0.8s;
+    Animation
+}
+
+.column:hover,
+.animationImage:hover {
+    transform: scale(1.1);
+    (150% zoom - Note: if the zoom is too large, it will go outside of the viewport)
+}
+
+a {
+    /*color: white;*/
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/*a:hover{
+ box-shadow: 0px 0px 1px 1px #df2d5e;
+ background: #df2d5e;
+ border-radius: 10%;
+}*/
+
+hr {
+    height: 1px;
+    color: #df2d5e;
+    background-color: #df2d5e;
+    border: none;
+}
+
+.column2 {
+    float: center;
+    display: inline-block;
+    width: 75px;
+    /* padding: 1px; */
+    height: 50px;
+    /* overflow: hidden; */
+    /* font-size: 9px; */
+}
+
+.row2 {
+    display: inline-table;
+}
+
+.center2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25px;
+    height: 25px;
+
+}
+
+.center3 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25px;
+    /* height: 32px; */
+
+}
+
+.yellowhoverClass00:hover>a img:hover {
+    content: url("../icons/np_award_195649_DF2D5E.png");
+    height: 25px;
+    width: 25px;
+    /* border-bottom: 1px solid #df2d5e; */
+    /* padding-top: 10px; */
+    /* padding-top: 10px; */
+    /* padding-bottom:3px; */
+}
+
+.pinkhoverClass00:hover>a img:hover {
+    content: url("../icons/np_book_573340_DF2D5E.png");
+    height: 25px;
+    width: 25px;
+    /* border-bottom: 1px solid #df2d5e; */
+
+}
+
+.bluehoverClass00:hover>a img:hover {
+    content: url("../icons/np_award_195649_DF2D5E.png");
+    height: 25px;
+    width: 25px;
+    /* border-bottom: 1px solid #df2d5e; */
+    /* padding-bottom: 3px; */
+
+}
+
+.orangehoverClass00:hover>a img:hover {
+    content: url("../icons/np_rocket_750644_DF2D5E.png");
+    height: 25px;
+    width: 25px;
+    /* border-bottom: 1px solid #df2d5e; */
+    /* padding-bottom: 3px; */
+
+}
+
+.bluehoverClass00:hover>a {
+    border-bottom: 3px solid #df2d5e;
+    /* border-bottom: 3px solid #10BBB3; */
+    /* padding-bottom: 3px; */
+    /* box-shadow: 0px 0px 1px 1px #10BBB3;
+    background: #10BBB3; */
+    /* border-radius: 10%; */
+    /*padding: 1px;*/
+}
+
+.pinkhoverClass00:hover>a {
+    border-bottom: 3px solid #df2d5e;
+    /* padding-bottom: 10px; */
+    /* border-radius: 10%; */
+}
+
+.yellowhoverClass00:hover>a {
+    border-bottom: 3px solid #df2d5e;
+    /* border-bottom: 3px solid #bc8e11;  */
+    /* padding-bottom: 10px; */
+    /* box-shadow: 0px 0px 1px 1px #bc8e11;
+    background: #bc8e11; */
+    /* border-radius: 10%; */
+
+}
+
+/* a:hover {
+    border-bottom: 3px solid #fff;
+} */

@@ -1,0 +1,246 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 300px;
+    height: 580px;
+    /* max-height: 520px; */
+    background: url(../backgrounds/background1.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.column {
+    float: center;
+    display: inline-block;
+    width: 100px;
+    padding: 1px;
+    height: 100px;
+    /*overflow: hidden;*/
+    font-size: 12px;
+}
+
+.row {
+    display: table;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    border: none;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#blue img:hover {
+    box-shadow: 0px 0px 1px 1px #10BBB3;
+    background: #10BBB3;
+    border-radius: 10%;
+
+}
+
+#pink img:hover {
+    box-shadow: 0px 0px 1px 1px #df2d5e;
+    background: #df2d5e;
+    border-radius: 10%;
+
+}
+
+#orange img:hover {
+    box-shadow: 0px 0px 1px 1px #d95026;
+    background: #d95026;
+    border-radius: 10%;
+
+}
+
+#yellow img:hover {
+    box-shadow: 0px 0px 1px 1px #bc8e11;
+    background: #bc8e11;
+    border-radius: 10%;
+}
+
+#green img:hover {
+    box-shadow: 0px 0px 1px 1px #7c9a17;
+    background: #7c9a17;
+    display: inline-block;
+    text-align: center;
+    border-radius: 10px;
+    padding: 8px;
+
+    /* box-shadow: 0px 0px 1px 1px #7c9a17;
+ background: #7c9a17;
+ border-radius: 10%;*/
+}
+
+.bluehoverClass:hover>a {
+    box-shadow: 0px 0px 1px 1px #10BBB3;
+    background: #10BBB3;
+    border-radius: 10%;
+
+}
+
+.bluehoverClass:hover>a img:hover {
+    content: url("../icons/np_message_600037_10BBB3.png");
+    height: 50px;
+    width: 50px
+}
+
+#top_icons img:hover {
+    /* box-shadow: 0px 0px 1px 1px #bc8e11;
+ background: #bc8e11;
+ border-radius: 20%;*/
+    content: url("../icons/np_arrow_2514847_DF2D5E.png");
+    height: 20px;
+    width: 20px
+}
+
+#inside_items a:hover {
+    box-shadow: 0px 0px 1px 1px #041F58;
+    background: #041F58;
+    display: inline;
+    text-align: left;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+#logo_style img:hover {
+    border-bottom: 1px solid #df2d5e
+}
+
+body {
+    opacity: 1;
+    animation-name: fadeInOpacity;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 1.2s;
+}
+
+@keyframes fadeInOpacity {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/*body {
+    /* for chrome and safari*/
+-webkit-animation-duration: 0.8s;
+-webkit-animation-name: slidein;
+
+/*for firefox*/
+-moz-animation-duration: 0.8s;
+-moz-animation-name: slidein;
+
+/* for opera*/
+-o-animation-duration: 0.8s;
+-o-animation-name: slidein;
+
+/* Standard syntax*/
+animation-duration: 0.8s;
+animation-name: slidein;
+}
+
+@-webkit-keyframes slidein {
+    from {
+        margin-left: -100%;
+        width: 300px;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 300px;
+    }
+}
+
+@-moz-keyframes slidein {
+    from {
+        margin-left: -100%;
+        width: 300px;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 300px;
+    }
+}
+
+@-o-keyframes slidein {
+    from {
+        margin-left: -100%;
+        width: 300px;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 300px;
+    }
+}
+
+@keyframes slidein {
+    from {
+        margin-left: -100%;
+        width: 300px;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 300px;
+    }
+}
+
+*/
+/*.column img:hover {
+    height: 70px;
+    width: 70px;
+}*/
+
+/* .animationImage {
+            display: block;
+  }*/
+
+.column,
+.animationImage {
+    transition: transform 0.8s;
+    Animation
+}
+
+.column:hover,
+.animationImage:hover {
+    transform: scale(1.1);
+    (150% zoom - Note: if the zoom is too large, it will go outside of the viewport)
+}
+
+a {
+    /*color: white;*/
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/*a:hover{
+ box-shadow: 0px 0px 1px 1px #df2d5e;
+ background: #df2d5e;
+ border-radius: 10%;
+}*/
+
+.scrollabletextbox {
+    height: 150px;
+    width: 300px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 80%;
+    overflow: scroll;
+    border: 4px solid #df2d5e;
+
+}

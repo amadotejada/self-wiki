@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Self Wiki",
+  "description": "Self Wiki - Created by Amado Tejada",
+  "version": "2.1.2",
+  "author": "Amado Tejada",
+  "icons": {
+    "16": "./icons/icon16.png",
+    "48": "./icons/icon48.png",
+    "128": "./icons/icon128.png"
+  },
+  "permissions": [],
+  "browser_action": {
+    "default_icon": "./icons/icon128.png",
+    "default_popup": "popup.html"
+  }
+}
